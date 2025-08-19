@@ -40,10 +40,7 @@ export const NavMenu = () => {
       >
         CAREERS
       </Link>
-      <Button
-        variant="default"
-        className="bg-blue-500 text-white font-bold hover:bg-secondary/90"
-      >
+      <Button variant="default" className="bg-blue-500 text-white font-bold">
         BOOK ONLINE
       </Button>
       <Link
