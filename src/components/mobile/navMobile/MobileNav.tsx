@@ -17,7 +17,11 @@ export function MobileNav({ isOpen, onToggle }: MobileMenuProps) {
         className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
         aria-label="Toggle menu"
       >
-        {isOpen ? <X className="size-8" /> : <Menu className="size-8" />}
+        {isOpen ? (
+          <X className="size-8 text-white" />
+        ) : (
+          <Menu className="size-8 text-white" />
+        )}
       </Button>
 
       {/* Mobile Menu Overlay */}
