@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -14,7 +15,9 @@ export const HeroSection = () => {
             the cost of materials, this is a great tool to put together your
             requirements for an upcoming project or consultation.
           </p>
-          <Button className="mt-4">Get Started</Button>
+          <Link href="./landing/mastic-calculator">
+            <Button className="mt-4">Get Started</Button>
+          </Link>
         </div>
       </article>
       <Image
